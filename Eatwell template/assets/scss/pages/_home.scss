@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-height: auto;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+  
+    nav{
+     width: 80%;
+     min-height: auto;
+     margin: auto;
+        .collapseDiv{
+            justify-content: center;
+        }
+        .navbarBrand{
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+}
+
+main{
+    #eatWellSection{
+        width: 100%;
+        min-height: 700px;
+        background-image: url(/assets/img/bg_3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        .text{
+          text-align: center;
+         width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          min-height: 700px;
+         
+          h1{
+            font-size: 70px;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+          }
+          p{
+            color: white;
+          }
+          button{
+            width: 150px;
+            height: 40px;
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+          }
+        }
+    }
+
+    #storySection{
+        width: 100%;
+        min-height: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .content{
+            padding-top: 20px;
+           
+            p{
+                color: gray;
+                font-size: 18px;
+               
+            }
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 50px;
+            }
+
+            button{
+               
+                border: 1px solid gray;
+                color: gray;
+                width: 180px;
+                height: 40px;
+                background-color: transparent;
+                font-size: 13px;
+            }
+        }
+        .images{
+            img{
+                max-width: 100%;
+                height: 350px;
+                padding-top: 20px;
+            }
+        }
+    }
+    #productSection{
+
+        width: 100%;
+        min-height: 500px;
+        .content{
+            flex-wrap: wrap;
+            display: flex;
+            gap: 40px;
+        }
+       #search{
+        border: none;
+        background-color: black;
+        color: white;
+        width: 130px;
+        height: 40px;
+       }
+
+        #products{
+            .box{
+                max-width: 100%;
+            }
+            .myBox{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        #page{
+            width: 170px;
+            height: 40px;
+            margin-top: 20px;
+            border: none;
+            background-color: black;
+            color: white;
+            
+        }
+       }
+       #inp{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 70%;
+        min-height: 50px;
+    }
+       #searchDiv{
+
+       
+        .myBox{
+          
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            min-height: 150px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            margin: 20px;
+            .myBoxdiv{
+                width: 100%;
+            min-height: 150px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 30%;
+                height: 150px;
+                border-radius: 20px;
+            }
+            p{
+                font-size: 30px;
+                margin-right: 20px;
+            }
+
+            }
+
+        }
+       }
+.productImg{
+max-width: 100%;
+}
+
+
+    #offersSection{
+        width: 100%;
+        min-height: 800px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+       .offersDiv{
+      text-align: center;
+      p{
+        font-size: 20px;
+        color: gray;
+        padding-bottom: 15px;
+      }
+      h1{
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+       }
+       .images{
+        text-align: center;
+        img{
+            max-width: 100%;
+        }
+        p{
+            color: gray;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        h3{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        button{
+            background-color: orange;
+            color: white;
+            border: 0;
+            font-size: 10px;
+            width: 100px;
+            height: 40px;
+        }
+       }
+    }
+
+    #menuSection{
+        width: 100%;
+        min-height: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .text{
+            text-align: center;
+            padding-bottom: 20px;
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 50px;
+            }
+            p{
+                color: gray;
+                font-size: 20px;
+            }
+
+            .btn{
+                border: 1px solid black;
+                border-radius: 0;
+                width: 150px;
+                height: 40px;
+            }
+
+            button{
+                border: 1px solid gray;
+                color: gray;
+                width: 120px;
+                height: 40px;
+                background-color: transparent;
+            }
+        }
+
+        .imgDiv{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            .images{
+                img{
+                    border-radius: 50%;
+                    max-width: 100%;
+                    
+                    width: 150px;
+                }
+            }
+            .textDiv{
+                h3{
+                 font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    color: black;
+                   
+                }
+
+
+            }
+        }
+    }
+
+    #newsSection{
+        width: 100%;
+        min-height: 500px;
+        margin-bottom: 20px;
+     
+        .head{
+            text-align: center;
+            padding-bottom: 20px;
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: black;
+                font-size: 50px;
+            }
+            p{
+                color: gray;
+                font-size: 20px;
+            }
+        }
+        .images{
+            text-align: center;
+            img{
+                max-width: 100%;
+                height: 250px;
+            }
+            h3{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 25px;
+                font-weight: 700;
+
+            }
+            p{
+                color: gray;
+            }
+            button{
+                background-color: orange;
+                color: white;
+                border: 0;
+                font-size: 15px;
+                width: 100px;
+                height: 40px;
+
+            }
+        }
+    }
+
+    #gallerySection{
+        width: 100%;
+        min-height: 500px;
+        padding-top: 20px;
+        margin-top: 20px;
+        .galleryDiv{
+            text-align: center;
+
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 50px;
+            }
+            p{
+                color: gray;
+                font-size: 20px;
+            }
+        }
+        .images{
+            padding: 5px;
+          
+            img{
+                max-width: 100%;
+                width: 340px;
+                height: 280px;
+                
+
+            }
+        }
+    }
+    #formSection {
+        min-height: 1000px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F8F9FA;
+    
+        .text {
+            width: 100%;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            h2 {
+                font-family: "Playfair Display", serif;
+                font-size: 56px;
+                line-height: 62px;
+                font-weight: 300;
+                color: #000;
+            }
+    
+            p {
+                color: #b8b8b8;
+                font-family: Raleway, sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                width: 55%;
+                text-align: center;
+            }
+        }
+    
+        #myForm {
+            min-height: 600px;
+            width: 100%;
+    
+            input {
+                border-radius: 0px;
+                background-color: #E6E6E6;
+                min-height: 55px;
+    
+                &::placeholder {
+                    color: #7b7979;
+                }
+            }
+            #exampleFormControlTextarea1 {
+                min-height: 300px;
+                border-radius: 0px;
+                background-color: #E6E6E6;
+    
+                &::placeholder {
+                    color: #7b7979;
+                }
+            }
+    
+            button {
+                width: 30%;
+                border: none;
+                min-height: 52px;
+                background-color: #FDA403;
+                color: #fff;
+                font-size: 16px;
+    
+               
+            }
+        }
+    
+        .inpImg {
+            display: flex;
+            align-items: center;
+            min-height: 500px;
+            flex-direction: column;
+    
+            img {
+                width: 65%;
+                max-height: 233px;
+            }
+    
+            .Address {
+                width: 65%;
+    
+                p {
+                    font-size: 16px;
+                    font-family: Raleway, sans-serif;
+                    color: #000;
+                    font-weight: 600;
+                }
+    
+                .phone {
+                    min-height: 40px;
+                    display: flex;
+                    align-items: end;
+                }
+    
+                .emailTxt {
+                    min-height: 40px;
+                    display: flex;
+                    align-items: end;
+                }
+    
+                .email {
+                    color: #FDA403;
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width:670px) {
+        #formSection {
+            .text {
+                h2 {
+                    font-size: 20px;
+                }
+    
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    
+
+  
+}
+
+footer{
+    width: 100%;
+    min-height: 150px;
+  background-color: black;
+  padding-top: 20px;
+  color: white;
+    .text{
+        text-align: center;
+    }
+}
